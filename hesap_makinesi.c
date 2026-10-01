@@ -4,13 +4,13 @@ int main() {
     double sayi1, sayi2, sonuc;
     char islem;
 
-    printf("İlk say�y� girin: ");
+    printf("İlk sayiyi girin: ");
     scanf("%lf", &sayi1);
 
-    printf("�kinci say�y� girin: ");
+    printf("İkinci sayiyi girin: ");
     scanf("%lf", &sayi2);
 
-    printf("Yapmak istedi�iniz i�lemin i�aretini girin (+, -, *, /): ");
+    printf("Yapmak istediginiz islemin isaretini girin (+, -, *, /): ");
     scanf(" %c", &islem);
 
     switch(islem) {
@@ -27,12 +27,12 @@ int main() {
             if (sayi2 != 0)
                 sonuc = sayi1 / sayi2;
             else {
-                printf("S�f�ra b�lme hatas�!\n");
+                printf("Sifira bolme hatasi!\n");
                 return 1;
             }
             break;
         default:
-            printf("Ge�ersiz i�lem i�areti!\n");
+            printf("Gecersiz islem isareti!\n");
             return 1;
     }
 
