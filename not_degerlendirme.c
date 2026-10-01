@@ -13,7 +13,7 @@ int main() {
 	if (ort >= 85)
 	puts("Pek iyi");
 	else if (ort>=70)
-	puts("İyi");
+	puts("Ä°yi");
 	else if (ort >=50)
 	puts("Orta");
 	else
