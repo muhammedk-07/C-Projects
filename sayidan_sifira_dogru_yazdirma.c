@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-�dan geriye do�ru gelecek �ekilde tasarlanan ya� //
-
 int main() {
 	int x,sayac;
 	printf("Bir sayi giriniz: ");
